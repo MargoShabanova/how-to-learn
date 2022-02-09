@@ -14,6 +14,64 @@
   min-height: 600px;
   max-height: 756px;
   /* выше установили ограничения для секции */
+  background-color: #f2f2f2;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+
+}
+
+.logo_place_header {
+  position: absolute;
+  height: 32px;
+  width: 183px;
+  top: 30px;
+  left: 64px;
+}
+
+.header__title {
+  margin: 0;
+  width: 730px;
+  left: 64px;
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: bold;
+}
+
+.header__subtitle {
+  position: absolute;
+  width: 388px;
+  left: 64px;
+  bottom: 30px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.header__main_illustration {
+  position: absolute;
+  width: 765px;
+  height: 608px;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+}
+
+.header__square-pic {
+  position:absolute;
+  width: 568px;
+  height: 568px;
+  background-color: #2f80ed;
+  top: 64px;
+  right: 0;
+  z-index: 1;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */

@@ -18,7 +18,7 @@
   position: relative;
   display: flex;
   flex-direction: row;
-  justify-content: flex-center;
+  justify-content: flex-start;
   align-items: center;
   margin: 0;
   padding: 0;
@@ -38,11 +38,12 @@
 
 .header__title {
   margin: 0;
+  padding-left: 64px;
   width: 730px;
-  left: 64px;
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
+  z-index: 3;
 }
 
 .header__subtitle {
@@ -53,6 +54,11 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
+  z-index: 3;
+}
+
+.header__link {
+  content: "\2192";
 }
 
 .header__main_illustration {
@@ -74,10 +80,51 @@
   z-index: 1;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
-  height: 568px;
-  width: 568px;
+.description{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.two-columns {
+  display: flexbox;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  min-height: 300px;
+  margin-top: 100px;
+  margin-bottom: 0;
+}
+
+.two-columns__brief {
+  flex-direction: row;
+  align-self: flex-start;
+  width: 175px;
+  float: left;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  color: #2f80ed;
+}
+
+.two-columns__main-text {
+  flex-direction: row;
+  width: 80%;
+  min-width: 784px;
+  float: right;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.two-columns__span-accent {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+  padding-top: 30px;
 }
 
 /* и элемента с модификатором вида ключ-значение */

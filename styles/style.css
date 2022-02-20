@@ -309,9 +309,12 @@
   margin: 60px auto 40px;
 }
 
-.footer__column_content_copyright {
+.footer__column {
   display: flex;
   flex-direction: column;
+}
+
+.footer__column_content_copyright {
   justify-content: space-between;
   flex-basis: 711px;
 }
@@ -328,11 +331,6 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-}
-
-.footer__column_content_info {
-  display: flex;
-  flex-direction: column;
 }
 
 .footer__column-heading {
@@ -366,9 +364,4 @@
   margin: 0;
   text-decoration: none;
   color: #fff;
-}
-
-.footer__column_content_social {
-  display: flex;
-  flex-direction: column;
 }

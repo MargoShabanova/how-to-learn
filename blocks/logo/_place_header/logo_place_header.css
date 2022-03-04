@@ -1,0 +1,8 @@
+@import url(../blocks/content/header.css);
+
+.logo_place_header {
+    position: absolute;
+    height: 32px;
+    top: 30px;
+    left: 64px;
+  }

@@ -1,0 +1,6 @@
+@import url(../blocks/content/header.css);
+@import url(../blocks/content/footer.css);
+
+.logo {
+    width: 183px;
+  }

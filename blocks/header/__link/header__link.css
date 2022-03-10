@@ -5,5 +5,5 @@
 
 .header__link:hover {
   opacity: .5;
-  transition: 3s;
+  transition: .5s;
 }
